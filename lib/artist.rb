@@ -1,10 +1,9 @@
 require 'pry'
 
-
 class Artist
-  attr_accessor :name
-  attr_reader :songs
   extend Memorable
+  attr_accessor :name
+  attr_reader :song
   
   @@artists = []
 
